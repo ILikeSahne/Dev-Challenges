@@ -1,46 +1,50 @@
 body {
-    margin: 0;
+	background-color: pink;
 }
-
-
-h1 {
-    background-color: #281B2D;
-    color: #fff;
-    text-align: center;
-    font-size: 72px;
-    margin-top: 0;
-    padding: 25px 0;
+header h1, body {
+	margin-top: 0px;
 }
-
-.subhead {
-    background-color: #281B2D;
-    color: #FCD801;
-    font-size: 48px;
-    padding: 20px;
-    border-bottom: 5px solid #00C54C;
+header h1 {
+	text-align: center;
+	font-size: 72px;
+	color: #FFF;
+	background-color: #281B2D;
 }
-
-.white-text { color: #fff }
-
+.subheading {
+	font-size: 48px;
+	color: #FCD801;
+	background-color: #281B2D;
+	border: 2px solid #00C54C;
+	margin-top: 0px;
+	/*
+		I was a little confused here, because of the 3 colors without much context
+	*/
+}
 .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 20px;
+	width: 1000px;
+	margin: auto;
 }
-
-.columns {
-    display: flex;
+.col-left {
+	float: left;
+	width: 50%;
+	margin-bottom: 20px;
 }
-
-.main-content {
-    width: 65%;
-    margin-right: 5%;
-}
-
-.sidebar {
-    width: 30%;
-}
-
 .col-right {
-    margin-left: 25px;
+	float: right;
+	width: 50%;
+}
+.sidebar {
+	clear: both;
+}
+.link {
+	color: blue;
+}
+.link:hover {
+	color: red;
+}
+/*
+	The Colors #9AE84F, #9138B7 did not look good, so I changed them
+*/
+.source {
+	font-size: 10px;
 }
