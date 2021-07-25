@@ -1,0 +1,18 @@
+header h1, body {
+	margin-top: 0px;
+}
+header h1 {
+	text-align: center;
+	font-size: 72px;
+	color: #FFF;
+	background-color: #281B2D;
+}
+.subheading {
+	font-size: 48px;
+	color: #FCD801;
+	background-color: #281B2D;
+	border: 2px solid #00C54C;
+	/*
+		I was a little confused here, because of the 3 colors without much context
+	*/
+}
